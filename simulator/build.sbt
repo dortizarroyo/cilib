@@ -21,7 +21,7 @@ libraryDependencies ++= Seq(
     "org.hamcrest" % "hamcrest-all" % "1.1" % "test"
 )
 
-// Handle the scala compiler dependency
+// Handle the scala compiler dependency - if needed
 libraryDependencies <<= (scalaVersion, libraryDependencies) { (sv, deps) =>
     deps :+ ("org.scala-lang" % "scala-compiler" % sv)
 }
