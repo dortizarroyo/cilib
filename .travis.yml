@@ -4,6 +4,9 @@ scala:
 jdk:
   - openjdk6
   - openjdk7
+branches:
+  only:
+    - master
 notifications:
   email:
     on_success: never
