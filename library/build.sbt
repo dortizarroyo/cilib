@@ -11,7 +11,7 @@ parallelExecution in Test := false
 scalaVersion := "2.9.2"
 
 libraryDependencies ++= Seq(
-    "org.scalaz" %% "scalaz-core" % "6.0.4",
+    "org.scalaz" %% "scalaz-core" % "7.0.0-M2",
     "com.google.guava" % "guava" % "11.0.1",
     "org.parboiled" % "parboiled-core" % "0.11.0",
     "org.parboiled" % "parboiled-java" % "0.11.0",
